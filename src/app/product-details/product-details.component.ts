@@ -23,10 +23,11 @@ export class ProductDetailsComponent implements OnInit {
     });
     
  }
- addTocart(product){
-   window.alert('This product has been added to')
+ addToCart(product)
+  {
+   window.alert('This product has been added to the cart!');
    this.cartService.addToCart(product);
 
-    }
+  }
 
 }
